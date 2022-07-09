@@ -17,5 +17,7 @@ module.exports = {
   ],
   testRunner: 'jest-jasmine2',
   moduleFileExtensions: [...defaults.moduleFileExtensions, 'ts', 'tsx'],
-  moduleNameMapper: {},
+  moduleNameMapper: {
+    '@app/ui/theme/layout': ['<rootDir>/src/app/ui/theme/layout/index.ts'],
+  },
 };
