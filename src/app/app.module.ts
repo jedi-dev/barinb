@@ -5,11 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppLocaleModule } from './app-locale.module';
-import { LayoutModule } from './ui/theme/layout/layout.module';
+import { HttpClientModule } from '@angular/common/http';
+import { IconsModule } from '@app/ui/icons';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, AppLocaleModule, LayoutModule],
+  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, AppLocaleModule, HttpClientModule, IconsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
