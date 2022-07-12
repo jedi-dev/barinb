@@ -26,7 +26,8 @@
       "@app/core/common": ["src/app/core/common/index.ts"],
       "@app/core/storage": ["src/app/core/storage/index.ts"],
       "@app/core/store/root": ["src/app/core/store/root/index.ts"],
-      "@app/core/store/utils": ["src/app/core/store/utils/index.ts"]
+      "@app/core/store/utils": ["src/app/core/store/utils/index.ts"],
+      "@app/core/logger": ["src/app/core/logger/index.ts"]
     }
   },
   "angularCompilerOptions": {
