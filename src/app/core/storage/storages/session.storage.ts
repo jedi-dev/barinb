@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 
-import { AbstractStorage } from '../interfaces/storage.interface';
+import { AbstractStorage } from './abstract.storage';
 import { storageAvailable } from '../utils/storage.util';
 import { MemoryStorage } from './memory.storage';
 

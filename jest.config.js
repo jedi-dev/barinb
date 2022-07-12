@@ -22,5 +22,7 @@ module.exports = {
     '@app/ui/icons': ['<rootDir>/src/app/ui/icons/index.ts'],
     '@app/core/common': ['<rootDir>/src/app/core/common/index.ts'],
     '@app/core/storage': ['<rootDir>/src/app/core/storage/index.ts'],
+    '@app/core/store/root': ['<rootDir>/src/app/core/store/root/index.ts'],
+    '@app/core/store/utils': ['<rootDir>/src/app/core/store/utils/index.ts'],
   },
 };
