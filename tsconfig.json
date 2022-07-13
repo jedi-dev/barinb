@@ -27,7 +27,10 @@
       "@app/core/storage": ["src/app/core/storage/index.ts"],
       "@app/core/store/root": ["src/app/core/store/root/index.ts"],
       "@app/core/store/utils": ["src/app/core/store/utils/index.ts"],
-      "@app/core/logger": ["src/app/core/logger/index.ts"]
+      "@app/core/logger": ["src/app/core/logger/index.ts"],
+      "@app/rooms/storage": ["src/app/rooms/storage/index.ts"],
+      "@app/buildings/storage": ["src/app/buildings/storage/index.ts"],
+      "@app/persons/storage": ["src/app/persons/storage/index.ts"]
     }
   },
   "angularCompilerOptions": {
