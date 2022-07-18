@@ -123,7 +123,7 @@ export const reducer = createReducer(
   on(RoomActions.changeRoomFailure, (state, { payload }) =>
     roomAdapter.updateOne(
       {
-        id: payload.id,
+        id: payload['id'],
         changes: {
           roomChangeError: payload,
           roomChangeRun: false,

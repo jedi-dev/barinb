@@ -28,12 +28,20 @@
       "@app/core/store/root": ["src/app/core/store/root/index.ts"],
       "@app/core/store/utils": ["src/app/core/store/utils/index.ts"],
       "@app/core/logger": ["src/app/core/logger/index.ts"],
+      "@app/core/environments": ["src/app/core/environments/index.ts"],
       "@app/rooms/common": ["src/app/rooms/common/index.ts"],
       "@app/rooms/storage": ["src/app/rooms/storage/index.ts"],
       "@app/rooms/service": ["src/app/rooms/service/index.ts"],
       "@app/rooms/state": ["src/app/rooms/state/index.ts"],
       "@app/buildings/storage": ["src/app/buildings/storage/index.ts"],
-      "@app/persons/storage": ["src/app/persons/storage/index.ts"]
+      "@app/buildings/common": ["src/app/buildings/common/index.ts"],
+      "@app/buildings/state": ["src/app/buildings/state/index.ts"],
+      "@app/buildings/service": ["src/app/buildings/service/index.ts"],
+      "@app/persons/common": ["src/app/persons/common/index.ts"],
+      "@app/persons/storage": ["src/app/persons/storage/index.ts"],
+      "@app/persons/state": ["src/app/persons/state/index.ts"],
+      "@app/persons/service": ["src/app/persons/service/index.ts"],
+      "@app/booking/page": ["src/app/booking/page/index.ts"]
     }
   },
   "angularCompilerOptions": {

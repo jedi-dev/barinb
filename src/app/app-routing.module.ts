@@ -7,7 +7,10 @@ const routes: Routes = [
     path: '',
     component: LayoutComponent,
     children: [
-      // routes
+      {
+        path: '',
+        loadChildren: (): Promise<any> => import('@app/booking/page').then((modules) => modules.BookingPageModule),
+      },
     ],
   },
 ];
